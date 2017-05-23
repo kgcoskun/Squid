@@ -1,0 +1,28 @@
+# for Centos 6
+
+Centos 6 üzerine Squid Kurulum ve Yapılandırma:
+
+Squid Kurulum
+#yum -y install squid
+
+Açılışta otomatik olarak başlaması için
+#chkconfig squid on
+
+Squid Servisini başlatmak için
+#service squid start
+
+Yapılandırma dosyası yolu
+/etc/squid/squid.conf
+
+Yapılandırma dosyasında bir değişiklik yaptıktan sonra
+#service squid reload
+
+Yapılandırma dosyası içindeki öntanımlı Proxy Port
+http_port 3128
+
+Proxy Erişim Loglarının bulunduğu dosya yolu
+/var/log/squid/access.log
+Proxy Cache Loglarının bulunduğu dosya yolu
+/var/log/squid/cache.log
+Proxy Cache Store Loglarının bulunduğu dosya yolu
+/var/log/squid/store.log
