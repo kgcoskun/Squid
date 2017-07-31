@@ -2,3 +2,6 @@ https://likegeeks.com/linux-proxy-server/
 HTTPS kullanımı için : http://roberts.bplaced.net/index.php/linux-guides/centos-6-guides/proxy-server/squid-transparent-proxy-http-https
 Squid Conf Örnekleri : http://wiki.squid-cache.org/ConfigExamples
 Caching Dynamic Content : http://wiki.squid-cache.org/ConfigExamples/DynamicContent
+                          http://wiki.squid-cache.org/ConfigExamples/DynamicContent/Coordinator
+Caching YouTube Content : http://wiki.squid-cache.org/ConfigExamples/DynamicContent/YouTube
+Safeaty : http://wiki.squid-cache.org/SquidFaq/SecurityPitfalls
