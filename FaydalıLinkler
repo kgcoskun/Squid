@@ -1,3 +1,4 @@
+Squid ile ilgili herşey : http://wiki.squid-cache.org/SquidFaq/CompleteFaq#SquidFaq.2FAboutSquid.What_is_Squid.3F
 https://likegeeks.com/linux-proxy-server/
 HTTPS kullanımı için : http://roberts.bplaced.net/index.php/linux-guides/centos-6-guides/proxy-server/squid-transparent-proxy-http-https
 Squid Conf Örnekleri : http://wiki.squid-cache.org/ConfigExamples
@@ -5,3 +6,4 @@ Caching Dynamic Content : http://wiki.squid-cache.org/ConfigExamples/DynamicCont
                           http://wiki.squid-cache.org/ConfigExamples/DynamicContent/Coordinator
 Caching YouTube Content : http://wiki.squid-cache.org/ConfigExamples/DynamicContent/YouTube
 Safeaty : http://wiki.squid-cache.org/SquidFaq/SecurityPitfalls
+Version ve Dağıtımlara göre paketler : http://wiki.squid-cache.org/SquidFaq/BinaryPackages
