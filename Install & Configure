@@ -1,4 +1,5 @@
 # for Centos 6
+====================================================================================
 
 Öncesinde;
 #chkconfig iptables off
@@ -8,8 +9,6 @@ SELINUX=disabled
 ESC basın ve :wq yaparak ENTER'layın, böylece kaydederek çıkmış olacaksınız.
 ardından terminalde,
 #shutdown -r now  yaparak restart edin.
-
-Once the system is rebooted , type into console :
 
 yum upgrade
 
