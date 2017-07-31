@@ -11,5 +11,5 @@ Squid Proxy
 
 ===========
 
-kgcoskun.com
+kgcoskun.com / 
 linuxislife.org
