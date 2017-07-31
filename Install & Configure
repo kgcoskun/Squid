@@ -1,5 +1,18 @@
 # for Centos 6
 
+Öncesinde;
+#chkconfig iptables off
+#chkconfig ip6tables off
+#vi /etc/selinux/config
+SELINUX=disabled
+ESC basın ve :wq yaparak ENTER'layın, böylece kaydederek çıkmış olacaksınız.
+ardından terminalde,
+#shutdown -r now  yaparak restart edin.
+
+Once the system is rebooted , type into console :
+
+yum upgrade
+
 Centos 6 üzerine Squid Kurulum ve Yapılandırma:
 
 Squid Kurulum
