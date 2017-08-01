@@ -1,0 +1,13 @@
+ipv6 disable
+=============================================================================
+sysctl -w net.ipv6.conf.default.disable_ipv6=1  --------------> ipv6 disable
+sysctl -w net.ipv6.conf.all.disable_ipv6=1      --------------> ipv6 disable
+
+vi /etc/sysconfig/network                       --------------> ipv6 disable
+NETWORKING_IPV6=no                  
+IPV6INIT=no 
+
+vi /etc/sysconfig/network-scripts/ifcfg-ethx  --------------> ipv6 disable
+IPV6INIT=no
+
+=============================================================================|
