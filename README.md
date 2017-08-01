@@ -1,7 +1,7 @@
 # Squid LAB
 ============
 
-1. Squid Proxy hakkında bilgilendirme.
+1. Squid Proxy hakkında bilgilendirme. </br>
 1.2. Squid Proxy Özellikleri.
 2. Squid Proxy Kurulum Öncesi Hazırlıklar / Planlama.
 2.1. Squid Proxy Kurulumu.
