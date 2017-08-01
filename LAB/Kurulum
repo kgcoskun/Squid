@@ -12,14 +12,6 @@ shutdown -r now  yaparak restart edin.
 
 yum install net-tools wget                  --------------> netstat konnutut için
 
-wget http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
-rpm -ivh epel-release-6-8.noarch.rpm 
-########### veya ###########
-yum install epel-release
-yum repolist
-yum repolist
-yum --enablerepo=epel info nano
-
 yum -y install squid                        --------------> Squid Kurulum
 squid -h                                    --------------> Squid Yardım
 squid -v                                    --------------> Squid Versiyon
