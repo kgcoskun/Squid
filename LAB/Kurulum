@@ -1,28 +1,25 @@
+   +  Centos 6 üzerine Squid Kuruyoruz
+/===========================================================================================================
 yum -y update
 
-chkconfig iptables off                          --------------> Başlangıçta ipv4 iptables daemon'ın devre dışı bırakılması
-chkconfig ip6tables off                         --------------> Başlangıçta ipv6 iptables daemon'ın devre dışı bırakılması
-
-vi /etc/selinux/config                          --------------> selinux'u kapatmak için.
-SELINUX=disabled
-ESC basın ve :wq                                --------------> ENTER, böylece kaydederek çıkmış olacaksınız.
-
-shutdown -r now                                 --------------> yaparak restart edin.
-
-yum install net-tools wget                      --------------> netstat konnutut için
-
 yum -y install squid                            --------------> Squid Kurulum
+chkconfig squid on                              --------------> Başlangıçta Squid daemon'ın otomatik başlaması
+
 squid -h                                        --------------> Squid Yardım
 squid -v                                        --------------> Squid Versiyon
 service squid status|start|stop                 --------------> Squid Kontrol
-chkconfig squid on                              --------------> Başlangıçta Squid daemon'ın otomatik başlaması
+
 
 shutdown -r now                                  --------------> yaparak restart edin ve temiz bir şekilde açalım.
 
-
+// Sistem yeniden başladıktan sonra Squid Daemon'ının d başladığını doğrulamak için;
 
 service squid status                            --------------> squid is running...
 
 netstat -tulpn veya netstat -patun              --------------> tcp        3128  LISTEN      1187/(squid)   
+// Eğer komut yok ise  #yum install net-tools   ile kurulabilir.
 
 tail -f /var/log/squid/access.log --------------> tarayıcımızı ayarladığımızda burada kayıt görebileceğiz.
+
+
+===========================================================================================================/
