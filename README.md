@@ -37,10 +37,10 @@
 3.3.2.8. Squid Proxy Log'larının İncelenmesi.</br>
 </br>
 4. Squid Proxy Hakkında Daha Geniş Bilgi İçin http://www.squid-cache.org/  kullanımı.
-4.1. http://www.squid-cache.org/ içinde Örnek Senaryolar.
+4.1. http://www.squid-cache.org/ içinde Örnek Senaryolar.</br>
 </br>
 5. Squid Kullanan UTM'ler.</br>
-5.1. Endian UTM, pFSense, Sophos UTM 'ler Squid Kullanmaktadır.</br>
+5.1. Endian UTM, pfSense, Sophos UTM 'ler Squid Kullanmaktadır.</br>
 
 
 
