@@ -1,6 +1,6 @@
 # Proxy
 =========================================================================================
-
+</br>
 1. Proxy Nedir?</br>
 1.1. Proxy Asli Görevi ve Bilgi Sistemleri içindeki Yeri Neresidir?</br>
 1.2. Proxy Neden ve Nerelerde Kullanılır?</br>
@@ -38,14 +38,14 @@
 </br>
 4. Squid Proxy Hakkında Daha Geniş Bilgi İçin http://www.squid-cache.org/  kullanımı.
 4.1. http://www.squid-cache.org/ içinde Örnek Senaryolar.
-
-5. Squid Kullanan UTM'ler.
-5.1. Endian UTM, pFSense, Sophos UTM 'ler Squid Kullanmaktadır.
+</br>
+5. Squid Kullanan UTM'ler.</br>
+5.1. Endian UTM, pFSense, Sophos UTM 'ler Squid Kullanmaktadır.</br>
 
 
 
 
 =========================================================================================
-
+</br>
 kgcoskun.com / 
 linuxislife.org
