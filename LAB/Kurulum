@@ -12,7 +12,7 @@ service squid status|start|stop                 --------------> Squid Kontrol
 
 shutdown -r now                                  --------------> yaparak restart edin ve temiz bir şekilde açalım.
 
-// Sistem yeniden başladıktan sonra Squid Daemon'ının d başladığını doğrulamak için;
+// Sistem yeniden başladıktan sonra Squid Daemon'ının da başladığını doğrulamak için;
 
 service squid status                            --------------> squid is running...
 
