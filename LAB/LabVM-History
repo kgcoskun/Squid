@@ -19,4 +19,13 @@ chkconfig ip6tables off
 vi /etc/selinux/config 
 getenforce 
 shutdown -r now
-
+/////////////////////////Sistem Hazırlık
+yum install squid
+chkconfig squid on
+squid -h
+shutdown -r now
+/////////////////////////Squid kurulum
+ service squid status
+ netstat -patun
+/////////////////////////Squid test
+cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
