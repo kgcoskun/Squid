@@ -16,10 +16,14 @@ shutdown -r now                                  --------------> yaparak restart
 
 service squid status                            --------------> squid is running...
 
-netstat -tulpn veya netstat -patun              --------------> tcp        3128  LISTEN      1187/(squid)   
+netstat -tulpn veya netstat -patun              --------------> tcp 0 0.0.0.0:3128  0.0.0.0:* LISTEN (squid) 
 // Eğer komut yok ise  #yum install net-tools   ile kurulabilir.
 
 tail -f /var/log/squid/access.log --------------> tarayıcımızı ayarladığımızda burada kayıt görebileceğiz.
 
+// Hemen Conf Dosyamızın yedeğini alıyoruz
+cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
+
+// Şimdi bir sonraki konuya yani yapılandırma aşamasına geçebiliriz.
 
 ===========================================================================================================/
