@@ -42,5 +42,11 @@ SELINUX=disabled                                --------------> esc, :wq
 
 shutdown -r now                                 --------------> yaparak restart edin.
 
+getenforce                                      --------------> selinux disable olduğunu doğrulamak için
+Disabled
+
 ===========================================================================================================/
+
+
+
 
