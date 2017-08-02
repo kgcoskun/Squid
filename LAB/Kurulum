@@ -24,6 +24,9 @@ tail -f /var/log/squid/access.log --------------> tarayıcımızı ayarladığı
 // Hemen Conf Dosyamızın yedeğini alıyoruz
 cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
 
+// Yazmaya Karşı Aldığımız Yedeği Koruyoruz.
+chmod a-w /etc/squid/squid.conf.bak
+
 // Şimdi bir sonraki konuya yani yapılandırma aşamasına geçebiliriz.
 
 ===========================================================================================================/
