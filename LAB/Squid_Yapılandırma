@@ -4,7 +4,7 @@
 
 mkdir /lab
 cd /lab/
-yum install wget zip unzip
+yum install wget zip unzip vim
 wget https://github.com/kgcoskun/Squid/archive/master.zip
 unzip master.zip 
 cd Squid-master/
