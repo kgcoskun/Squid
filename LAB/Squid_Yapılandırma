@@ -1,0 +1,14 @@
+
+   +  Öncelikle GitHub içinde bulunan Örnek Conf dosyasını almak için
+/===========================================================================================================
+
+mkdir /lab
+cd /lab/
+yum install wget zip unzip
+wget https://github.com/kgcoskun/Squid/archive/master.zip
+unzip master.zip 
+cd Squid-master/
+
+===========================================================================================================/
+
+
