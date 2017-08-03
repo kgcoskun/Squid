@@ -56,7 +56,11 @@ history -c                                      --------------> History temizle
 
 ===========================================================================================================/
 
-
-
-
-
+  +  Netstat ile Network Monitoring
+/===========================================================================================================
+netstat -atp | grep ":http"                     --------------> tüm tcp bağlantılar içinde pid leri ile birlikde http trafik göster
+netstat -ac 5 | grep ":http"                    --------------> 5 sn de bir http trafiği göster
+netstat -atc 5 | grep ":http"                   --------------> yanlızca tcp tarfiği ve 5 sn de bir yapılan http trafiği göster
+netstat -atpc 5 | grep ":http"                  --------------> yanlızca tcp tarfiği ve 5 sn de bir yapılan http trafiği göster pidleri ile birlikte
+netstat -ci                                     --------------> network transections
+===========================================================================================================/
